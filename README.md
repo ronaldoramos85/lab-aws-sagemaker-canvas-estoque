@@ -23,6 +23,9 @@ Para a realização deste Lab (também chamado de desafio de projeto) foi necess
 -   É necessário entrar com o e-mail utilizado para criar a conta na AWS como "Endereço de e-mail de usuário root". Após isso, na próxima tela será requisitada a senha.
 -   Se o login for realizado com sucesso, será exibida a tela inicial da AWS Console, onde poderá buscar por "canvas", conforme segue:
 ![image](https://github.com/ronaldoramos85/lab-aws-sagemaker-canvas-estoque/blob/main/images/Home_AWS_Console.jpg)
+-   Escolha a opção do SageMaker Canvas que é exibida.
+-	Será mostrada a tela de domínios. Caso ainda não tenha sido criado um domínio, será necessário fazê-lo, seguindo as instruções para criação de um domínio de único usuário, visto se tratar apenas de teste. Caso o domínio já tenha sido criado, será exibida uma tela semelhante a seguinte:
+![image](https://github.com/ronaldoramos85/lab-aws-sagemaker-canvas-estoque/blob/main/images/Dominio.jpg)
 
 
 ### 1. Selecionar Dataset
