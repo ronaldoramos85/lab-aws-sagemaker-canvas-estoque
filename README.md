@@ -96,7 +96,25 @@ Agora, vamos entender as métricas mencionadas:
 
 Essas métricas são essenciais para avaliar a precisão e o desempenho dos modelos de machine learning. Cada uma delas tem suas próprias vantagens e desvantagens, e a escolha da métrica correta depende do problema específico que está sendo resolvido.
 
-Fonte:
+### 4. Prever
+
+-   Após clicar em "Predict" poderá ser escolhida "Batch Prediction" para gerar um job com vários datasets ou poderá ser escolhida a opção "Single Prediction", que se aplica a este caso:
+![image](https://github.com/ronaldoramos85/lab-aws-sagemaker-canvas-estoque/blob/main/images/Predict_001.jpg)
+![image](https://github.com/ronaldoramos85/lab-aws-sagemaker-canvas-estoque/blob/main/images/Predict_002.jpg)
+-	Na caixa suspensa "item", poderá ser escolhido o código do item para que seja exibido o forecast (previsão) para aquele item através dos percentis P10, P50 e P90, onde P10 representa o cenário mais pessimista, P50 o cenário mediano e P90 o cenário otimista de previsão. Na imagem a seguir vemos as previsões para 2 dias para o produto cujo código é 1022:
+![image](https://github.com/ronaldoramos85/lab-aws-sagemaker-canvas-estoque/blob/main/images/Predict_003.jpg)
+-	A seguir vemos para o produto de código 1000:
+![image](https://github.com/ronaldoramos85/lab-aws-sagemaker-canvas-estoque/blob/main/images/Predict_004.jpg)
+-	No item de código 1018 vemos que há um aumento do valor no dataset e isso se reflete em uma curva de crescimento na previsão do segundo dia em relação ao primeiro em todos os 3 percentis (P10, P50 e P90)
+![image](https://github.com/ronaldoramos85/lab-aws-sagemaker-canvas-estoque/blob/main/images/Predict_005.jpg)
+
+### 5. Considerações Finais
+
+-	O desafio de projeto proposto se mostrou uma excelente ferramenta de aproximação tanto da técnica no-code, quanto da tecnologia AWS SageMaker Canvas, como forma prática de desenvolver soluções de Machine Learning e que será muito útil para o aprendizado contínuo que se seguirá em Inteligência Artificial, Data Science (Ciência de Dados).
+
+
+## Fontes:
+
 (1) No-code Machine Learning - Amazon SageMaker Canvas - AWS. https://aws.amazon.com/sagemaker/canvas/.
 (2) MAPE (Erro Absoluto Percentual Médio) em Machine Learning. https://mariofilho.com/mape-erro-absoluto-percentual-medio-em-machine-learning/.
 (3) Understanding Forecast Accuracy: MAPE, WAPE, WMAPE. https://www.baeldung.com/cs/mape-vs-wape-vs-wmape.
@@ -122,13 +140,3 @@ Fonte:
 (23) Mean absolute scaled error - Wikipedia. https://en.wikipedia.org/wiki/Mean_absolute_scaled_error.
 (24) mase : Mean Absolute Scaled Error - R Package Documentation. https://rdrr.io/cran/Metrics/man/mase.html.
 (25) [Machine Learning] Introduction To MAE Metric (With Example). https://clay-atlas.com/us/blog/2021/11/24/machine-learning-mean-absolute-error/.
-
-### 4. Prever
-
--   Use o modelo treinado para fazer previsões de estoque.
--   Exporte os resultados e analise as previsões geradas.
--   Documente suas conclusões e qualquer insight obtido a partir das previsões.
-
-## 🤔 Dúvidas?
-
-Esperamos que esta experiência tenha sido enriquecedora e que você tenha aprendido mais sobre Machine Learning aplicado a problemas reais. Se tiver alguma dúvida, não hesite em abrir uma issue neste repositório ou entrar em contato com a equipe da DIO.
