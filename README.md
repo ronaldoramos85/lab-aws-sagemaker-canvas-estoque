@@ -26,6 +26,12 @@ Para a realização deste Lab (também chamado de desafio de projeto) foi necess
 -   Escolha a opção do SageMaker Canvas que é exibida.
 -	Será mostrada a tela de domínios. Caso ainda não tenha sido criado um domínio, será necessário fazê-lo, seguindo as instruções para criação de um domínio de único usuário, visto se tratar apenas de teste. Caso o domínio já tenha sido criado, será exibida uma tela semelhante a seguinte, onde deverá ser clicada a opção "Tela" (Canvas em português) no menu à esquerda:
 ![image](https://github.com/ronaldoramos85/lab-aws-sagemaker-canvas-estoque/blob/main/images/Dominio.jpg)
+-	A próxima tela exibirá o usuário criado na etapa de criação de domínio de um único usuário. Basta clicar no botão amarelo "Abrir o Canvas", como segue:
+![image](https://github.com/ronaldoramos85/lab-aws-sagemaker-canvas-estoque/blob/main/images/usuario.jpg)
+-	A tela inicial do Canvas é como se segue:
+![image](https://github.com/ronaldoramos85/lab-aws-sagemaker-canvas-estoque/blob/main/images/Home_SageMaker_Canvas.jpg)
+
+
 
 
 
