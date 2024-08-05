@@ -18,7 +18,12 @@ Para a realização deste Lab (também chamado de desafio de projeto) foi necess
 ## 🚀 Passo a Passo
 
 ### 0. Primeiros passos
--   Após a cria
+-   Após a criação da conta na AWS, é necessário logar com o usuário criado na [AWS Console](https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26nc2%3Dh_ct%26oauthStart%3D1722891305242%26src%3Dheader-signin%26state%3DhashArgsFromTB_us-east-2_1eb17e8439ff0272&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&forceMobileApp=0&code_challenge=ZRclOwZ9iEQarWEC2ALxQLWX9SXQzD1RI5PUn-fC_lQ&code_challenge_method=SHA-256), conforme imagem a seguir:
+![image](https://github.com/ronaldoramos85/lab-aws-sagemaker-canvas-estoque/blob/main/images/login_console_AWS.jpg)
+-   É necessário entrar com o e-mail utilizado para criar a conta na AWS como "Endereço de e-mail de usuário root". Após isso, na próxima tela será requisitada a senha.
+-   Se o login for realizado com sucesso, será exibida a tela inicial da AWS Console, onde poderá buscar por "canvas", conforme segue:
+![image](https://github.com/ronaldoramos85/lab-aws-sagemaker-canvas-estoque/blob/main/images/Home_AWS_Console.jpg)
+
 
 ### 1. Selecionar Dataset
 
