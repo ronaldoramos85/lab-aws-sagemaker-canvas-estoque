@@ -70,27 +70,25 @@ Para a realização deste Lab (também chamado de desafio de projeto) foi necess
 
 Agora, vamos entender as métricas mencionadas:
 
-1. **Avg. wQL**: Não consegui encontrar uma definição específica para "Avg. wQL" no contexto de machine learning. Pode ser que seja uma métrica específica de algum domínio ou aplicação. Recomendo verificar a documentação ou o contexto onde essa métrica está sendo usada para uma definição mais precisa.
-
-2. **MAPE (Erro Absoluto Percentual Médio)**: É uma métrica para avaliar modelos de regressão em machine learning. O MAPE é expresso em porcentagem, o que facilita a compreensão para a maioria das pessoas e ajuda na comunicação de resultados para pessoas que não têm conhecimento técnico em machine learning⁵. A fórmula do MAPE é:
+1. **MAPE (Erro Absoluto Percentual Médio)**: É uma métrica para avaliar modelos de regressão em machine learning. O MAPE é expresso em porcentagem, o que facilita a compreensão para a maioria das pessoas e ajuda na comunicação de resultados para pessoas que não têm conhecimento técnico em machine learning⁵. A fórmula do MAPE é:
 
     $$MAPE = \frac{1}{n} \sum_{i=1}^{n} \left| \frac{y_i - p_i}{y_i} \right| * 100$$
 
     onde `n` é o número total de amostras, `y_i` é o valor real para a amostra `i` e `p_i` é o valor previsto para a amostra `i`⁵.
 
-3. **WAPE (Erro Percentual Médio Ponderado)**: É uma métrica que permite que vários modelos contribuam para uma previsão em proporção ao seu desempenho estimado¹⁴. A fórmula do WAPE é:
+2. **WAPE (Erro Percentual Médio Ponderado)**: É uma métrica que permite que vários modelos contribuam para uma previsão em proporção ao seu desempenho estimado¹⁴. A fórmula do WAPE é:
 
     $$WAPE = \frac{\sum_{t=1}^{n} |A_t - F_t|}{\sum_{t=1}^{n} A_t}$$
 
     onde `A_t` é o valor real e `F_t` é o valor previsto¹⁴.
 
-4. **RMSE (Raiz do Erro Quadrático Médio)**: É uma métrica amplamente utilizada para avaliar o desempenho de modelos de regressão. Ela quantifica a diferença entre os valores previstos e os valores reais, calculando a raiz quadrada da média dos quadrados das diferenças¹⁶. A fórmula do RMSE é:
+3. **RMSE (Raiz do Erro Quadrático Médio)**: É uma métrica amplamente utilizada para avaliar o desempenho de modelos de regressão. Ela quantifica a diferença entre os valores previstos e os valores reais, calculando a raiz quadrada da média dos quadrados das diferenças¹⁶. A fórmula do RMSE é:
 
     $$RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - p_i)^2}$$
 
     onde `n` é o número total de amostras, `y_i` é o valor real para a amostra `i` e `p_i` é o valor previsto para a amostra `i`¹⁶.
 
-5. **MASE (Erro Absoluto Médio Escalado)**: É uma medida de precisão de previsão que compara as previsões com a saída de uma abordagem de previsão ingênua²³. A fórmula do MASE é:
+4. **MASE (Erro Absoluto Médio Escalado)**: É uma medida de precisão de previsão que compara as previsões com a saída de uma abordagem de previsão ingênua²³. A fórmula do MASE é:
 
     $$MASE = \frac{MAE}{MAE_{in-sample, naive}}$$
 
